@@ -23,6 +23,12 @@
             .btn-small{
                 width:10vh;
             }
+            .danger{
+                background-color: #D46A6A;
+            }
+            .success{
+                background-color: #2ecc71;
+            }
             .btn {
             position: relative;
 
@@ -37,14 +43,17 @@
             border-radius: 2px;
             box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
             
-            background-color: #2ecc71;
+            
             color: #ecf0f1;
             
             transition: background-color .3s;
             }
 
-            .btn:hover, .btn:focus {
+            .success:hover, .success:focus {
             background-color: #27ae60;
+            }
+            .danger:hover, .danger:focus {
+            background-color: #D46A6A;
             }
 
             .btn > * {
@@ -92,11 +101,11 @@
                 <div></div>
                 <div></div>
                 <div>
-                    <a class="btn btn-small" href="">Yes</a>
+                    <a class="btn btn-small success" href="">Yes</a>
                 </div>
                 
                 <div>
-                    <a class="btn btn-small" href="">No</a>
+                    <a class="btn btn-small danger" href="">No</a>
                 </div>
                 <div></div>
                 <div></div>
